@@ -397,6 +397,14 @@
   margin-bottom: 80px;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .tariffs .choice-wrapper {
+    background-image: url(../img/tariffs/lines-2x.png);
+  }
+}
+
 .tariffs .choice-text {
   color: #fff;
   text-align: center;
