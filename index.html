@@ -25,7 +25,7 @@
           Настало время получить ответы на важные вопросы и построить свою
           стратегию жизни!
         </p>
-        <a class="btn" href="">я готова</a>
+        <a class="btn" href="#tariffs">я готова</a>
       </div>
     </header>
     <main>
@@ -229,7 +229,7 @@
           </ul>
         </div>
       </section>
-      <section class="tariffs">
+      <section class="tariffs" id="tariffs">
         <div class="container">
           <h2 class="title">Что вас ждёт?</h2>
           <div class="choice-wrapper">
@@ -258,7 +258,9 @@
                 </ul>
                 <p class="price">25$</p>
               </div>
-              <a class="btn" href="">Хочу один вебинар</a>
+              <button class="btn" type="button" data-modal-open="modal1">
+                Хочу один вебинар
+              </button>
             </li>
             <li class="tariff-item">
               <div class="item-box">
@@ -283,7 +285,9 @@
                 </ul>
                 <p class="price">50$</p>
               </div>
-              <a class="btn" href="">Хочу два вебинара</a>
+              <button class="btn" type="button" data-modal-open="modal1">
+                Хочу два вебинара
+              </button>
             </li>
           </ul>
           <div class="timer-container">
@@ -345,9 +349,36 @@
     <footer class="footer">
       <div class="container">
         <p class="text">Остались вопросы?</p>
-        <a class="btn" href="">Связаться с помощником</a>
+        <a
+          class="btn"
+          href="https://t.me/Evgeniy_cyber_security"
+          target="_blank"
+          rel="nofollow"
+          >Связаться с помощником</a
+        >
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal="modal1">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div>
+            <script
+              id="7573bc9bdf147329196a30748e16e6a5443f2d76"
+              src="https://vikabardadym.in.ua/pl/lite/widget/script?id=1224431"
+            ></script>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/js-modal.js" type="module"></script>
   </body>
 </html>
