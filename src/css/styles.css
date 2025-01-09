@@ -841,9 +841,9 @@ body.modal-open {
   top: 50%;
 
   padding-top: 50px;
-  padding-right: 24px;
+  padding-right: 6px;
   padding-bottom: 24px;
-  padding-left: 24px;
+  padding-left: 6px;
 
   max-width: 375px;
   width: 100%;
